@@ -1,3 +1,7 @@
-# primeirob_3t
+# terceiro trimestre 
 
-Vinícius Yudi Kondo Nº30 1ºB
+## identificação 
+Lucas Ferreira Passafaro- Nr.18
+
+## conteúdo
+HTML,CSS e javasciprt
