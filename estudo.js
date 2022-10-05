@@ -14,3 +14,23 @@ document.write(tabuada + " x 8 = " + (tabuada*8) + "<br>");
 document.write(tabuada + " x 9 = " + (tabuada*9) + "<br>");
 document.write(tabuada + " x 10 = " + (tabuada*10) + "<br>");
 }
+
+let lista = ["Jesus", "Spessato", "Duarte", "Jorge", "Neuza", "Gilmar", "Jossyara"];
+
+    function mostraLista(){
+        document.write("Tamanho da Lista: " + lista.length + "<br>");
+        for(let i = 0; i < lista.length; i++){
+            document.write("Professor: " + lista[i] + "<br>");
+        }
+    }
+    
+
+    function multiplica(){
+        for(let i = 1; i <= 10; i++){
+            document.write("O valor do i = " + i + "<br>")
+            for(let j = 1;j<= 10; j++){
+                document.write(tabuada + " x "+j+" = " + (i*j) + "<br>");
+            }  
+        document.write("<br>");
+        }
+    }
