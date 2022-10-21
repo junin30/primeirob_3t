@@ -1,4 +1,5 @@
 
+
 let tabuada = 69
 
 function escreva(){
@@ -39,7 +40,7 @@ function total(){
     let r = 0;
     for(let i=1; i <=t;i++){
      r = v * (1+ (j/100));
-     document.write
+     document.write("Mês " + "valor: " + moeda(r) + "<br>");
      v = r;
 
      if(!Number(v)) {
@@ -50,7 +51,7 @@ function total(){
     }
    
 
-    document.write("resultado:" + r);
+    document.write("Resultado: R$" + moeda(r));
 }
 function media(){
     let n1= document.getElementById("n1").value;
