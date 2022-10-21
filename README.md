@@ -1,7 +1,5 @@
-# terceiro trimestre 
+# primeirob_3t
 
-## identificação 
-Lucas Ferreira Passafaro- Nr.18
+Guilherme Augusto Lopes Branha-- Numero/13-- primeiro ano B
 
-## conteúdo
-HTML,CSS e javasciprt
+conteudo html ,CSS, JAVASCRIPT
