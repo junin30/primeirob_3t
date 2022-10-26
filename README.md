@@ -1,5 +1,5 @@
 # primeirob_3t
 
-Guilherme Augusto Lopes Branha-- Numero/13-- primeiro ano B
+Vinícius Yudi Kondo-- Numero/30-- primeiro ano B
 
 conteudo html ,CSS, JAVASCRIPT
