@@ -34,36 +34,38 @@ function multiplica(){
 }
 
 function total(){
-    let v = document.getElementById("valor").value;
-    let j = document.getElementById("juros").value;
-    let t = document.getElementById("meses").value;
-    let r = 0;
-    for(let i=1; i <=t;i++){
-     r = v * (1+ (j/100));
-     document.write("Mês " + "valor: " + moeda(r) + "<br>");
-     v = r;
+  let  v = document.getElementById("Valor").value;
+  let  j = document.getElementById("Juros").value;
+  let  t = document.getElementById("Meses").value;
+  if(Number(v)){
+   alert("O Valor Deve ser um Numero");
+   document.getElementById("valor").value = "";
+   document.getElementById("valor").focus();
+   return
+  }
+  if(Number(j)){
+    alert("Os Juros devem ser Numericos");
+    document.getElementById("juros").value = "";
+    document.getElementById("juros").focus();
+    return
+   }
 
-     if(!Number(v)) {
-         alert("O valor deve ser numérico");
-        
-         return;
-     }
-    }
-   
+  let  r = 0;
+for (let i=1; i <= t;i++) {
+  r = v * (1+(j/100));
+  //document.write("Mês "+ i + "valor: " + r + "<br>");
+  v = r;
 
-    document.write("Resultado: R$" + moeda(r));
 }
-function media(){
-    let n1= document.getElementById("n1").value;
-    let n2= document.getElementById("n2").value;
-    let n3= document.getElementById("n3").value;
-    let n4= document.getElementById("n4").value;
-
-      let r= (Number(n1)+Number(n2)+Number(n3)+Number(n4))/4;
-
-      document.getElementById("resul").innerHTML  = "Média: " + r;
+  document.write("Resultado: R$"+ r);
 }
+function Media(){
+    let n1 = document.getElementById("n1").value;
+    let n2 = document.getElementById("n2").value;
+    let n3 = document.getElementById("n3").value;
+    let n4 = document.getElementById("n4").value;
 
+    let r = (Number(n1)+Number(n2)+Number(n3)+Number(n4))/4;
 function multiplo(){
     let n1= document.getElementById("n1").value;
     let n2= document.getElementById("n2").value;
@@ -74,7 +76,7 @@ function multiplo(){
 
       document.getElementById("resul").innerHTML  = "O produto: " + r;
 
-      
+
 }
 function soma(){
     let n1= document.getElementById("n1").value;
