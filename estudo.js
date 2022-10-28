@@ -39,14 +39,14 @@ function total(){
   let  t = document.getElementById("Meses").value;
   if(Number(v)){
    alert("O Valor Deve ser um Numero");
-   document.getElementById("valor").value = "";
-   document.getElementById("valor").focus();
+   document.getElementById("Valor").value = "";
+   document.getElementById("Valor").focus();
    return
   }
   if(Number(j)){
     alert("Os Juros devem ser Numericos");
-    document.getElementById("juros").value = "";
-    document.getElementById("juros").focus();
+    document.getElementById("Juros").value = "";
+    document.getElementById("Juros").focus();
     return
    }
 
